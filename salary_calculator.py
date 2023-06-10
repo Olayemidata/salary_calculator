@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Salary Calculation App")
+st.title("Salary Estimate Calculator")
 
 st.text(" ")
 st.text(" ")
