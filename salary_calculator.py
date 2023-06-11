@@ -1,12 +1,39 @@
 import streamlit as st
 st.title("Salary Estimate Calculator")
 
-st.text(" ")
-st.text(" ")
 
-Minwage = st.sidebar.number_input("What is your country's minimum wage", step = 1)
-YearsofExp = st.sidebar.number_input("How many years of work experience do you have", step = 1)
-Skillprof = st.sidebar.radio("What is your skill proficiency level", [0,1,2,3,4,5])
+st.sidebar.write('PLEASE NOTE:')
+
+st.sidebar.text(" ")
+
+st.sidebar.write('For Years of Experience < 7,')
+st.sidebar.write('Sal = Minwage * YearsofExp * Skillprof')
+
+st.sidebar.text(" ")
+
+st.sidebar.write('For Years of Experience > 7,')
+st.sidebar.write('Sal = (Minwage*1.5) * YearsofExp * Skillprof')
+
+st.sidebar.text(" ")
+
+st.sidebar.write('For Years of Experience > 15,')
+st.sidebar.write('Sal = (Minwage*2) * YearsofExp * Skillprof')
+
+
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+
+st.sidebar.write('KEYWORDS:')
+
+st.sidebar.write('Sal means Salary')
+st.sidebar.write('Minwage means Minimum wage')
+st.sidebar.write('YearsofExp means Years of experience')
+st.sidebar.write('Skillprof means Skill proficiency')
+
+
+
+st.text(" ")
+st.text(" ")
 
 col1, col2 = st.columns(2, gap="large")
 
@@ -32,19 +59,20 @@ st.text(" ")
 st.text(" ")
 st.text(" ")
     
+    
+Minwage = st.number_input("What is your country's minimum wage", step = 1)
+YearsofExp = st.number_input("How many years of work experience do you have", step = 1)
+Skillprof = st.radio("What is your skill proficiency level", [0,1,2,3,4,5])
+
+st.text(" ")
+st.text(" ")  
+
 st.checkbox("Would you like us to match you with an employer?")
 
-st.write('PLEASE NOTE:')
-
-st.write('For Years of Experience < 7,')
-st.write('Sal = Minwage * YearsofExp * Skillprof')
-
-st.write('For Years of Experience > 7 <= 15,')
-st.write('Sal = (Minwage*1.5) * YearsofExp * Skillprof')
-
-st.write('For Years of Experience > 15,')
-st.write('Sal = (Minwage*2) * YearsofExp * Skillprof')
-
+    
+st.text(" ")
+st.text(" ")    
+    
 
 if st.button("Calculate Salary"):
     Sal = Minwage*YearsofExp*Skillprof
