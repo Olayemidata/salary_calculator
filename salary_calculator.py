@@ -4,8 +4,6 @@ st.title("Salary Estimate Calculator")
 
 st.sidebar.write('PLEASE NOTE:')
 
-st.sidebar.text(" ")
-
 st.sidebar.write('For Years of Experience < 7,')
 st.sidebar.write('Sal = Minwage * YearsofExp * Skillprof')
 
@@ -33,15 +31,13 @@ st.sidebar.write('Skillprof means Skill proficiency')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
-st.sidebar.text(" ")
-st.sidebar.text(" ")
 
-st.sidebar.write('The Salary Calculator App is used to calculate the salary expectation for a role.')
+st.sidebar.write('*This App is used to calculate the salary expectation for a role.')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ") 
 
-st.sidebar.write('For SOME countries, the National Job Board reserves the right to approve or disapprove the information provided here if found to be false. If your is verified, you will be issued a certificate which ascertains your skill and experience level and the commesurate salary attached. This certificate can be presented to prospective or current employers to negotiate your salary.')
+st.sidebar.write('*For SOME countries, the National Job Board reserves the right to approve or disapprove the information provided here if found to be false. If your is verified, you will be issued a certificate which ascertains your skill and experience level and the commesurate salary attached. This certificate can be presented to prospective or current employers to negotiate your salary.')
 
 
 
