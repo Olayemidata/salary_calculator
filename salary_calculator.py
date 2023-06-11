@@ -31,6 +31,19 @@ st.sidebar.write('YearsofExp means Years of experience')
 st.sidebar.write('Skillprof means Skill proficiency')
 
 
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+
+st.sidebar.write('The Salary Calculator App is used to calculate the salary expectation for a role.')
+
+st.sidebar.text(" ")
+st.sidebar.text(" ") 
+
+st.sidebar.write('For SOME countries, the National Job Board reserves the right to approve or disapprove the information provided here if found to be false. If your is verified, you will be issued a certificate which ascertains your skill and experience level and the commesurate salary attached. This certificate can be presented to prospective or current employers to negotiate your salary.')
+
+
 
 st.text(" ")
 st.text(" ")
@@ -65,6 +78,10 @@ YearsofExp = st.number_input("How many years of work experience do you have", st
 Skillprof = st.radio("What is your skill proficiency level", [0,1,2,3,4,5])
 
 st.text(" ")
+st.text(" ")  
+
+st.write("***Please open sidebar at the top left corner if you're using a mobile phone for important information")
+
 st.text(" ")  
 
 st.checkbox("Would you like us to match you with an employer?")
