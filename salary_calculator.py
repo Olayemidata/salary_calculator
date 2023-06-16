@@ -11,6 +11,7 @@ st.sidebar.write('Skillprof = Skill proficiency')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
+st.sidebar.text(" ")
 
 st.sidebar.write('PLEASE NOTE:')
 
@@ -30,7 +31,7 @@ st.sidebar.write('Sal = (Minwage x 2) x YearsofExp x Skillprof')
 st.sidebar.text(" ")
 st.sidebar.text(" ")
 
-st.sidebar.write('Skill proficiency level definitions:')
+st.sidebar.write('SKILL PROFICIENCY LEVELS:')
 st.sidebar.write ('1 = Beginner')
 st.sidebar.write ('2 = Advanced beginner')
 st.sidebar.write ('3 = Competent/Intermediate')
