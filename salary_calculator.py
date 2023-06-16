@@ -41,7 +41,7 @@ st.sidebar.write ('5 = Expert')
 st.sidebar.text(" ")
 st.sidebar.text(" ")
 
-st.sidebar.write('*The employer reserves the right to assess the skill proficiency level of the employee during/after the interview process and review the salary expectation accordingly')
+st.sidebar.write('*The employer reserves the right to assess the skill proficiency level of the employee during/after the interview process and review the salary expectation accordingly.')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ") 
@@ -52,7 +52,7 @@ st.text(" ")
 st.text(" ")
 
 st.write("I created this application to help job seekers, employees, and HR professionals/employers calculate the salary expectation for a role based on the candidate's skills and work experience. The estimated salary is calculated using the country's minimum wage, the skills of the job seeker, and relevant work experience. The app is seamless and easy to use.")
-st.write("If you're viewing this with a mobile phone, please open the sidebar at the top left corner for necessary information")
+st.write("If you're viewing this with a mobile phone, please open the sidebar at the top left corner for necessary information.")
 st.write('🥂 To bigger salaries!')
 
 
