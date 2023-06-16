@@ -50,13 +50,20 @@ st.sidebar.write('*For SOME countries, the National Job Board reserves the right
 st.text(" ")
 st.text(" ")
 
-st.write('I created this application to help job seekers, employees, and HR professionals/employers calculate the salary expectation for a role based on the candidate's skills and work experience. The estimated salary is calculated using the country's minimum wage, the skills of the job seeker, and relevant work experience. The app is seamless and easy to use.')
+st.write("I created this application to help job seekers, employees, and HR professionals/employers calculate the salary expectation for a role based on the candidate's skills and work experience. The estimated salary is calculated using the country's minimum wage, the skills of the job seeker, and relevant work experience. The app is seamless and easy to use.")
 st.write("If you're viewing this with a mobile phone, please open the sidebar at the top left corner for necessary information")
 st.write('🥂 To bigger salaries!')
+
+
+
+st.text(" ")
+st.text(" ")
 
 col1, col2 = st.columns(2, gap="large")
 
 with col1:
+    
+    st.write("Now let's calculate..."
 
     st.selectbox("Course of study", ["Accounting", "Banking and Finance", "Business Administration", "Communications", "Computer Science", "Economics", "Law", "Medicine", "Political Science", "Zoology", "Others"])
 
