@@ -63,34 +63,40 @@ col1, col2 = st.columns(2, gap="large")
 
 with col1:
     
-    st.write("Now let's calculate..."
-
+    st.write("NOW LET'S CALCULATE...")
+    
     st.selectbox("Course of study", ["Accounting", "Banking and Finance", "Business Administration", "Communications", "Computer Science", "Economics", "Law", "Medicine", "Political Science", "Zoology", "Others"])
 
     st.selectbox("Current/Preferred Industry", ["Advertising", "Agriculture", "Arts", "Aviation", "Banking", "Consultancy", "Education", "E-commerce", "Energy", "Entertainment", "Fashion", "Health", "Hospitality and Tourism", "Information and Technology", "Law", "Manufacturing", "NGO", "Public Sector", "Startup", "Telecommunications", "Others"])
 
     st.selectbox("Area of Interest", ["Administration", "Accounting/Audit", "Banking/Finance", "Customer Service", "Cyber security", "Data/Business Analytics", "Human Resources", "Legal", "Operations", "Marketing/Sales", "Product", "Software Development", "Supply Chain", "Startup", "UI/UX Designer", "Others"])
 
-    st.selectbox("Major Skill/Software", ["Business Analysis", "Business Development", "Communication", "CRM/Saleforce",  "Database Administration", "Data Analytics", "Data Engineering", "Data Science/Machine Learning", "Deep Learning", "Digital Marketing", "Economics", "Law",  "Writing", "Web Development", "Product Management", "Project Management", "Relationship Management", "Social Media Management", "Design", "Others"])
+    st.selectbox("Major Skill", ["Business Analysis", "Business Development", "Communication", "Database Administration", "Data Analytics", "Data Engineering", "Data Science/Machine Learning", "Deep Learning", "Digital Marketing", "Economics", "Law",  "Writing", "Web Development", "Product Management", "Project Management", "Relationship Management", "Social Media Management", "Design", "Others"])
+    
+    st.text_input("Major Software/Language")
 
 
 with col2:
     
-    st.radio("What is your age range", ["18-25", "26-35", "36-45", "46-65"])
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    
+    st.radio("Age range", ["18-25", "26-35", "36-45", "46-65"])
+    
+    st.text(" ")
 
     st.radio("Identification Type", ["National Identity Card", "International Passport", "Driver's Licence", "Worker's/Resident Permit", "Voter's Card"])
+    
+    st.number_input("ID Number", step = 1)
 
-    st.number_input("Please enter your ID Number", step = 1)
-
-st.text(" ")
 st.text(" ")
 st.text(" ")
     
 Minwage = st.number_input("What is your country's minimum wage", step = 1)
 YearsofExp = st.number_input("How many years of work experience do you have", step = 1)
-Skillprof = st.radio("What is your skill proficiency level", [0,1,2,3,4,5])
+Skillprof = st.radio("What is your skill proficiency level", [1,2,3,4,5])
 
-st.text(" ")
 st.text(" ")    
 
 st.checkbox("Would you like us to match you with an employer?")
