@@ -40,7 +40,7 @@ st.sidebar.write ('5 = Expert')
 st.sidebar.text(" ")
 st.sidebar.text(" ")
 
-st.sidebar.write('*This App is used to calculate the salary expectation for a role. However, the employer reserves the right to assess the skill proficiency level of the employee during/after the interview process and review the salary expectation accordingly')
+st.sidebar.write('*The employer reserves the right to assess the skill proficiency level of the employee during/after the interview process and review the salary expectation accordingly')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ") 
@@ -49,6 +49,10 @@ st.sidebar.write('*For SOME countries, the National Job Board reserves the right
 
 st.text(" ")
 st.text(" ")
+
+st.write('I created this application to help job seekers, employees, and HR professionals/employers calculate the salary expectation for a role based on the candidate's skills and work experience. The estimated salary is calculated using the country's minimum wage, the skills of the job seeker, and relevant work experience. The app is seamless and easy to use.')
+st.write("If you're viewing this with a mobile phone, please open the sidebar at the top left corner for necessary information")
+st.write('🥂 To bigger salaries!')
 
 col1, col2 = st.columns(2, gap="large")
 
@@ -75,24 +79,17 @@ st.text(" ")
 st.text(" ")
 st.text(" ")
     
-    
 Minwage = st.number_input("What is your country's minimum wage", step = 1)
 YearsofExp = st.number_input("How many years of work experience do you have", step = 1)
 Skillprof = st.radio("What is your skill proficiency level", [0,1,2,3,4,5])
 
 st.text(" ")
-st.text(" ")  
-
-st.write("***Please open sidebar at the top left corner if you're using a mobile phone for important information")
-
-st.text(" ")  
+st.text(" ")    
 
 st.checkbox("Would you like us to match you with an employer?")
-
     
 st.text(" ")
 st.text(" ")    
-    
 
 if st.button("Calculate Salary"):
     Sal = Minwage*YearsofExp*Skillprof
