@@ -5,17 +5,17 @@ st.title("Salary Estimate Calculator")
 st.sidebar.write('PLEASE NOTE:')
 
 st.sidebar.write('For Years of Experience < 3,')
-st.sidebar.write('Sal = Minwage * YearsofExp * Skillprof')
+st.sidebar.write('Sal = Minwage x YearsofExp x Skillprof')
 
 st.sidebar.text(" ")
 
 st.sidebar.write('For Years of Experience > 3,')
-st.sidebar.write('Sal = (Minwage*1.5) * YearsofExp * Skillprof')
+st.sidebar.write('Sal = (Minwage x 1.5) x YearsofExp x Skillprof')
 
 st.sidebar.text(" ")
 
 st.sidebar.write('For Years of Experience > 15,')
-st.sidebar.write('Sal = (Minwage*2) * YearsofExp * Skillprof')
+st.sidebar.write('Sal = (Minwage x 2) x YearsofExp x Skillprof')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
