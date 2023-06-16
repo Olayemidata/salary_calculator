@@ -2,6 +2,16 @@ import streamlit as st
 st.title("Salary Estimate Calculator")
 
 
+st.sidebar.write('KEYWORDS:')
+
+st.sidebar.write('Sal = Salary')
+st.sidebar.write('Minwage = Minimum wage')
+st.sidebar.write('YearsofExp = Years of experience')
+st.sidebar.write('Skillprof = Skill proficiency')
+
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+
 st.sidebar.write('PLEASE NOTE:')
 
 st.sidebar.write('For Years of Experience < 3,')
@@ -16,16 +26,6 @@ st.sidebar.text(" ")
 
 st.sidebar.write('For Years of Experience > 15,')
 st.sidebar.write('Sal = (Minwage x 2) x YearsofExp x Skillprof')
-
-st.sidebar.text(" ")
-st.sidebar.text(" ")
-
-st.sidebar.write('KEYWORDS:')
-
-st.sidebar.write('Sal means Salary')
-st.sidebar.write('Minwage means Minimum wage')
-st.sidebar.write('YearsofExp means Years of experience')
-st.sidebar.write('Skillprof means Skill proficiency')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
