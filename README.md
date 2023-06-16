@@ -1,2 +1,2 @@
 # salary_calculator
-I created this application to help job seekers or employees calculate their salary expectation for a role based on their skills and work experience. The salary expectation is calculated using the minimum wage, the work experience and the skills of the job seeker. Organisations and HR professionals can also use this to calculate the estimated salary for a role. 
+I created this application to help job seekers, employees, and HR professionals/employers calculate the salary expectation for a role based on the candidate's skills and work experience. The estimated salary is calculated using the country's minimum wage, the skills of the job seeker, and relevant work experience. The app is seamless and easy to use.
