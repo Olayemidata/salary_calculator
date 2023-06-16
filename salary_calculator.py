@@ -4,19 +4,18 @@ st.title("Salary Estimate Calculator")
 
 st.sidebar.write('PLEASE NOTE:')
 
-st.sidebar.write('For Years of Experience < 7,')
+st.sidebar.write('For Years of Experience < 3,')
 st.sidebar.write('Sal = Minwage * YearsofExp * Skillprof')
 
 st.sidebar.text(" ")
 
-st.sidebar.write('For Years of Experience > 7,')
+st.sidebar.write('For Years of Experience > 3,')
 st.sidebar.write('Sal = (Minwage*1.5) * YearsofExp * Skillprof')
 
 st.sidebar.text(" ")
 
 st.sidebar.write('For Years of Experience > 15,')
 st.sidebar.write('Sal = (Minwage*2) * YearsofExp * Skillprof')
-
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
@@ -28,18 +27,25 @@ st.sidebar.write('Minwage means Minimum wage')
 st.sidebar.write('YearsofExp means Years of experience')
 st.sidebar.write('Skillprof means Skill proficiency')
 
+st.sidebar.text(" ")
+st.sidebar.text(" ")
+
+st.sidebar.write('Skill proficiency level definitions:')
+st.sidebar.write ('1 = Beginner')
+st.sidebar.write ('2 = Advanced beginner')
+st.sidebar.write ('3 = Competent/Intermediate')
+st.sidebar.write ('4 = Proficient/Advanced Intermediate')
+st.sidebar.write ('5 = Expert')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ")
 
-st.sidebar.write('*This App is used to calculate the salary expectation for a role.')
+st.sidebar.write('*This App is used to calculate the salary expectation for a role. However, the employer reserves the right to assess the skill proficiency level of the employee during/after the interview process and review the salary expectation accordingly')
 
 st.sidebar.text(" ")
 st.sidebar.text(" ") 
 
 st.sidebar.write('*For SOME countries, the National Job Board reserves the right to approve or disapprove the information provided here if found to be false. If your is verified, you will be issued a certificate which ascertains your skill and experience level and the commesurate salary attached. This certificate can be presented to prospective or current employers to negotiate your salary.')
-
-
 
 st.text(" ")
 st.text(" ")
