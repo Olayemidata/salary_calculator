@@ -48,13 +48,14 @@ col1, col2 = st.columns(2, gap="large")
 
 with col1:
 
-    st.selectbox("Course of study", ["Accounting", "Banking and Finance", "Business Administration", "Communications", "Computer Science", "Economics", "Law", "Medicine", "Political Science", "Zoology"])
+    st.selectbox("Course of study", ["Accounting", "Banking and Finance", "Business Administration", "Communications", "Computer Science", "Economics", "Law", "Medicine", "Political Science", "Zoology", "Others"])
 
-    st.selectbox("Preferred Industry", ["Aviation", "Agriculture", "Arts", "Banking", "Consultancy", "Education", "E-commerce", "Energy", "Entertainment", "Fashion", "Computer Science", "Health", "Hospitality and Tourism", "Information", "Law", "Manufacturing", "NGO", "Public Sector", "Startup", "Telecommunications"])
+    st.selectbox("Current/Preferred Industry", ["Advertising", "Agriculture", "Arts", "Aviation", "Banking", "Consultancy", "Education", "E-commerce", "Energy", "Entertainment", "Fashion", "Health", "Hospitality and Tourism", "Information and Technology", "Law", "Manufacturing", "NGO", "Public Sector", "Startup", "Telecommunications", "Others"])
 
-    st.selectbox("Area of Interest", ["Adminitration", "Accounting", "Customer Service", "Relationship Management", "Human Resources", "Legal", "Operations", "Marketing/Sales", "Product", "Software Development", "Supply Chain", "Startup", "UI/UX Designer"])
+    st.selectbox("Area of Interest", ["Administration", "Accounting/Audit", "Banking/Finance", "Customer Service", "Cyber security", "Data/Business Analytics", "Human Resources", "Legal", "Operations", "Marketing/Sales", "Product", "Software Development", "Supply Chain", "Startup", "UI/UX Designer", "Others"])
 
-    st.selectbox("Major Skill/Software", ["Business Analysis", "Business Development", "Communication", "CRM/Saleforce", "Data Analysis", "Data science", "Digital Marketing", "G-suite", "Economics", "Law", "Microsoft Office", "Writing", "Web Development" "Project Management", "Social Media Management", "Graphic Design"])
+    st.selectbox("Major Skill/Software", ["Business Analysis", "Business Development", "Communication", "CRM/Saleforce",  "Database Administration", "Data Analytics", "Data Engineering", "Data Science/Machine Learning", "Deep Learning", "Digital Marketing", "Economics", "Law",  "Writing", "Web Development", "Product Management", "Project Management", "Relationship Management", "Social Media Management", "Design", "Others"])
+
 
 with col2:
     
